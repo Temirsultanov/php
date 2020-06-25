@@ -1,0 +1,68 @@
+body{
+    animation: color 5s 3s infinite linear;
+    font-size: 30px;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    text-align: center;
+}
+@keyframes color{
+    0%{
+        background-color: #fff;
+        color: black;
+        transform: scaleX(1) rotate(0) skew(0);
+    }
+    10%{
+        background-color: hotpink;
+        color: orange;
+        transform: scaleX(3);
+        letter-spacing: 5px;
+    }
+    20%{
+        background-color: yellow;
+        color: sandybrown;
+        filter: hue-rotate(45deg);
+        transform: scaleX(-1) skew(20deg);
+        letter-spacing: normal;
+    }
+    30%{
+        background-color: blue;
+        color: salmon;
+        transform: scaleX(-1) skew(-40deg);
+    }
+    40%{
+        background-color: orange;
+        color: gray;
+        transform: scaleX(2) skew(0deg);
+    }
+    50%{
+        background-color: red;
+        color: violet;
+        transform: scaleX(1) rotate(2deg) skew(10deg);
+    }
+    60%{
+        background-color: green;
+        color: red;
+        transform: scaleX(1) scaleY(2) rotate(2deg) skew(10deg);
+    }
+    70%{
+        background-color: yellow;
+        color: blue;
+        transform: scaleX(2) scaleY(1) rotate(-2deg) skew(-40deg);
+    }
+    80%{
+        background-color: pink;
+        color: red;
+        transform: scaleX(1) scaleY(2) rotate(10deg) skew(50deg);
+    }
+    90%{
+        background-color: blueviolet;
+        color: yellow;
+        transform: scaleX(2) rotate(2deg) skew(10deg);
+
+    }
+    100%{
+        background-color: #fff;
+        color: black;
+        transform: scaleX(1) rotate(0) skew(0);
+    }
+}
