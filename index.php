@@ -11,10 +11,6 @@
     <header>
         Пык-пык
     </header>
-    <audio>
-        <source autoplay type="audio/mpeg" src="muz.mp3"></source>
-    </audio>
-
     <?php
     $host = 'std-937.ist.mospolytech.ru:22';
     $database = 'std_937';
